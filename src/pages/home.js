@@ -40,8 +40,10 @@ const Home = () => {
                                                         <span className="badge text-bg-secondary">Address: Moringa School</span>
                                                         <span className="badge text-bg-secondary cost">Cost: Ksh {bootcamp?.averageCost}</span>
                                                         <p className="card-text">
-                                                            Frontend Developer
+                                                            careers:<br />
+                                                            {bootcamp?.careers}
                                                         </p>
+                                                        <p>{bootcamp?.description}</p>
                                                     </div>
                                                 </div>
                                             </div>
